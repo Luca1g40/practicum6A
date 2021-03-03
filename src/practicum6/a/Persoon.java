@@ -103,7 +103,6 @@ public class Persoon {
             if (!s) {
                 nietInBezit.add(spel);
             }
-
         }
     return nietInBezit;
     }

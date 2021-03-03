@@ -32,6 +32,5 @@ public class Main {
         teKoop.add(new Game("Mario Kart 8", 2019, 35.00)); // true
         ArrayList<Game> nogNietInBezit = p1.bepaalGamesNietInBezit(teKoop); //[mario]
         System.out.println("p1 heeft de volgende games nog niet: " + nogNietInBezit.toString());
-
     }
 }
