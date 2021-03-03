@@ -4,7 +4,6 @@ package practicum6.a;
 import java.util.ArrayList;
 
 
-
 public class Persoon {
     private String naam;
     private double budget;
