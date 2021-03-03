@@ -17,6 +17,15 @@ public class Persoon {
         games = new ArrayList<>();
     }
 
+    public Game zoekGameOpNaam(String naam){
+        for (Game game : games) {
+            if (game.getNaam().equals(naam)) {
+                return game;
+            }
+        }
+        return null;
+    }
+
     public double getBudget() {
         return budget;
     }
