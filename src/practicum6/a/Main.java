@@ -11,6 +11,7 @@ public class Main {
         Game g2 = new Game("Need for Speed: Rivals", releaseJaar1, 45.99);
         Game g3 = new Game("Need for Speed: Rivals", releaseJaar1, 45.99);
 
+
         Persoon p1 = new Persoon("Eric", 200);
         Persoon p2 = new Persoon("Hans", 55);
 
