@@ -88,7 +88,23 @@ public class Persoon {
         else{
             return "" + sb;
         }
+    }
+    public  ArrayList<Game> bepaalGamesNietInBezit(ArrayList<Game> lijst) { //lijst = teKoop
+        ArrayList<Game> nietInBezit = new ArrayList<>();
 
+        for (Game spel : lijst) { // need for speed
+            boolean s = false;
+            for (Game game : games) { // just cause, need for speed
+                if (spel == game) {
+                    s = true;
+                    break;
+                }
+            }
+            if (!s) {
+                nietInBezit.add(spel);
+            }
 
         }
+    return nietInBezit;
+    }
 }
